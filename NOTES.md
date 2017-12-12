@@ -25,3 +25,13 @@ To avoid issues with JS on Windows remember to install nodejs:
 ### DB server stop
 
     pg_ctl -D D:/Dev/postgresql/baza.postgresql stop
+
+## Management
+
+### Association with heroku remote for CLI
+
+    heroku git:remote -a tumblr-tags
+
+### Local run
+
+    heroku local

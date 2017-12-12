@@ -1,8 +1,8 @@
 {
-  "name": "Start on Heroku: Ruby",
-  "description": "A barebones Rails app, which can easily be deployed to Heroku",
+  "name": "TumblrTags",
+  "description": "A simple Rails app processing tags from tumblr blogs, deployed to Heroku.",
   "image": "heroku/ruby",
-  "repository": "https://github.com/heroku/ruby-getting-started",
+  "repository": "https://github.com/Hazardius/tumblr-tags",
   "keywords": ["ruby", "rails" ],
   "addons": [ "heroku-postgresql" ]
 }

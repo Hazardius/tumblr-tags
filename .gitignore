@@ -38,8 +38,10 @@ bower.json
 .powenv
 
 # Ignore all logfiles and tempfiles.
-/log/*.log
-/tmp
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
 
 # Ignore Byebug command history file.
 .byebug_history
@@ -56,3 +58,6 @@ capybara-*.html
 *.orig
 rerun.txt
 pickle-email-*.html
+
+/node_modules
+/yarn-error.log
