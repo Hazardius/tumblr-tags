@@ -35,3 +35,7 @@ To avoid issues with JS on Windows remember to install nodejs:
 ### Local run
 
     heroku local
+
+## Devise: Authentication management gem
+
+https://stackoverflow.com/questions/21904701/ruby-on-rails-4-what-authentication-gem-to-use#21907080
