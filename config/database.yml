@@ -82,6 +82,6 @@ test:
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
-  # database: ruby-getting-started_production
-  # username: ruby-getting-started
-  # password: <%= ENV['RUBY-GETTING-STARTED_DATABASE_PASSWORD'] %>
+  # database: tumblr-tags_production
+  # username: tumblr-tags
+  # password: <%= ENV['TUMBLR-TAGS_DATABASE_PASSWORD'] %>

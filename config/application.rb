@@ -22,5 +22,12 @@ module TumblrTags
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    
+    Tumblr.configure do |config|
+      config.consumer_key = "consumer_key"
+      config.consumer_secret = "consumer_secret"
+      config.oauth_token = "access_token"
+      config.oauth_token_secret = "access_token_secret"
+    end
   end
 end
