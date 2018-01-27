@@ -50,6 +50,10 @@ e.g.
 
     heroku local
 
+## Run migration on heroku db
+
+    heroku run rake db:migrate
+
 ## Devise: Authentication management gem
 
 https://stackoverflow.com/questions/21904701/ruby-on-rails-4-what-authentication-gem-to-use#21907080
@@ -59,6 +63,10 @@ https://stackoverflow.com/questions/21904701/ruby-on-rails-4-what-authentication
 ### Encrypted rails secrets
 
 https://www.engineyard.com/blog/encrypted-rails-secrets-on-rails-5.1
+
+For heroku app - you need to set your secret key:
+
+    heroku config:set RAILS_MASTER_KEY=[YOUR_KEY_HERE]
 
 ### Links
 
