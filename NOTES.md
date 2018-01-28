@@ -16,15 +16,15 @@ To avoid issues with JS on Windows remember to install nodejs:
 
 ### DB initialization
 
-    pg_ctl init -D "D:\Dev\postgresql\baza.postgresql" -o "-E=UTF8"
+    pg_ctl init -D "D:\Projekty\postgresql\bazadanych.postgresql" -o "-E=UTF8"
 
 ### DB server start
 
-    pg_ctl -D D:/Dev/postgresql/baza.postgresql -l D:/Dev/postgresql/pgsql.log start
+    pg_ctl -D D:/Projekty/postgresql/bazadanych.postgresql -l D:/Projekty/postgresql/bazadanych.postgresql.log start
 
 ### DB server stop
 
-    pg_ctl -D D:/Dev/postgresql/baza.postgresql stop
+    pg_ctl -D D:/Projekty/postgresql/bazadanych.postgresql stop
 
 ## Build gems on Windows
 
