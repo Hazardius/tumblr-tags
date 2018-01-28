@@ -68,6 +68,12 @@ For heroku app - you need to set your secret key:
 
     heroku config:set RAILS_MASTER_KEY=[YOUR_KEY_HERE]
 
+To edit secrets on Windows dev machine:
+
+    Rails::Secrets.read_for_editing do |tmp_path|
+      system("vim #{tmp_path}")
+    end
+
 ### Links
 
     https://github.com/tumblr/tumblr_client

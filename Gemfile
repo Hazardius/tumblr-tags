@@ -69,9 +69,10 @@ group :test do
   gem 'shoulda'
 end
 
+gem 'bcrypt', '~> 3.1', '>= 3.1.11', git: 'https://github.com/codahale/bcrypt-ruby.git',
+  :require => 'bcrypt', platforms: [:mingw, :mri, :mswin, :x64_mingw, :jruby]
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mri, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
-gem 'bcrypt', '~> 3.1', '>= 3.1.11', git: 'https://github.com/codahale/bcrypt-ruby.git',
-  :require => 'bcrypt', platforms: [:mingw, :mri, :mswin, :x64_mingw, :jruby]
+gem 'tumblr_client'
