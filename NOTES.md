@@ -10,6 +10,12 @@ To avoid issues with JS on Windows remember to install nodejs:
 
     scoop install nodejs
 
+For system tests on Windows remember to install chromedriver:
+
+    scoop install chromedriver
+
+[More on headless usage of chromedriver](http://ngauthier.com/2017/09/rails-system-tests-with-headless-chrome-on-windows-bash-wsl.html).
+
 ## Database
 
     scoop install postgresql
