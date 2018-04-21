@@ -16,6 +16,10 @@ For system tests on Windows remember to install chromedriver:
 
 [More on headless usage of chromedriver](http://ngauthier.com/2017/09/rails-system-tests-with-headless-chrome-on-windows-bash-wsl.html).
 
+To set envvars in scoop/PS:
+
+    [environment]::setenvironmentvariable('GIT_SSH', (resolve-path (scoop which ssh)), 'USER')
+
 ## Database
 
     scoop install postgresql
